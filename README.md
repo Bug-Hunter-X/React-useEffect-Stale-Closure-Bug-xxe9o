@@ -1,0 +1,2 @@
+# React UseEffect Stale Closure Bug
+This repository demonstrates a common bug in React's `useEffect` hook related to stale closures.  The `setInterval` callback function within `useEffect` captures the initial value of the `count` state, leading to unexpected behavior. The solution demonstrates how to properly handle this using functional updates.
